@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-family: 'Zen Antique Soft', serif; */
+    font-family: 'Nunito Sans', sans-serif;
+}
+.wrapper{
+    width: 100%;
+    height: 100vh;
+    background-image: url(../image/ian-dooley-DJ7bWa-Gwks-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+}
+.wrap{
+    width: 90%;
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+}
+.item1{
+    width: 100%;
+    display: flex;
+    /* height: 90%; */
+    justify-content: start;
+    align-items: flex-start;
+    color: white;   
+    flex-direction: column;
+    
+}
+.item2{
+    width: 100%;
+    /* height: 90%; */
+    display: flex;
+    justify-content: start;
+    align-items: flex-start;
+    color: white;
+    flex-direction: column;
+    
+}
+.item3{
+    width: 100%;
+    /* height: 90%; */
+    display: flex;
+    justify-content: start;
+    align-items: flex-start;
+    color: white;   
+    flex-direction: column;
+}
+.name{
+    width: 200px;
+    height: 30px;
+    border: none;
+    border-radius: 3px;
+    padding-left: 5px;
+}
+.age{
+    width: 200px;
+    height: 30px;
+    border: none;
+    border-radius: 3px;
+    padding-left: 5px;
+}
+h3{
+    color: white;
+}
+button{
+    width: 200px;
+    height: 30px;
+    border: none;
+    background-color: #abe9cd;
+    background-image: linear-gradient(315deg, #abe9cd 0%, #3eadcf 74%);
+    border-radius: 3px;
+    color: white;
+}
+.mini-wraps{
+    width: 33%;
+    height: 100%;
+    border-right: 1px solid #f0f0f0;
+    padding-top: 10px;
+}
+.mini-wraps:nth-child(3){
+    border: none;
+}
+.box{
+    width: 90%;
+    height: 100px;
+    border:  1px solid #f0f0f0;
+    border-radius: 5px;
+    padding: 10px 5px;
+    margin-bottom: 5px;
+}
+.person-active{
+    font-size: 30px;
+    padding-bottom: 5px;
+}
+.age-active{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 30px;
+    border-radius: 3px ;
+    background-color: whitesmoke;
+    color: black;
+    font-size: 15;
+    
+}
